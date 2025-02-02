@@ -3,16 +3,15 @@ input = lambda : sys.stdin.readline().strip()
 
 n, m = map(int, input().split())
 
-to_name, to_num = {}, {}
-for num in range(1,n+1):
-    name = input()
-    to_num[name] = num
-    to_name[str(num)] = name
+to_idx, to_name = {}, {}
+for idx in range(1, n+1):
+    name, idx = input(), str(idx)
+    to_name[idx], to_idx[name] = name, idx
 
 for _ in range(m):
     target = input()
-    if target.isdigit():
-        print(to_name[target])
+    
+    if target.isalpha():
+        print(to_idx[target])
     else:
-        print(to_num[target])
-
+        print(to_name[target])
