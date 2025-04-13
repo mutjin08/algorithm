@@ -1,9 +1,10 @@
 # welcome back!
-ref : https://algorithm.tony9402.com/ </br>
-exp : The deer is an agile animal. </br>
+ref : https://github.com/tony9402/baekjoon/tree/main/algorithms </br>
 qna : https://mutjin08.tistory.com/161 </br>
+cmt : The deer is an agile animal. </br>
 
 # data structure
+ref : https://github.com/tony9402/baekjoon/tree/main/algorithms/data_structure </br>
 <table>
     <thead>
         <tr>
@@ -25,6 +26,18 @@ qna : https://mutjin08.tistory.com/161 </br>
             <td>https://www.acmicpc.net/problem/9012</td>
         </tr>
         <tr>
+            <td></td>
+            <td></td>
+        </tr>
+                <tr>
+            <td></td>
+            <td></td>
+        </tr>
+                <tr>
+            <td></td>
+            <td></td>
+        </tr>
+                <tr>
             <td></td>
             <td></td>
         </tr>
