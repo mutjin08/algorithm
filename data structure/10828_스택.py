@@ -1,11 +1,9 @@
 import sys
-input = sys.stdin.readline # time over solution
-
+input = sys.stdin.readline
 from collections import deque
 
 n = int(input())
-
-q = deque([])
+s = deque([])
 
 for _ in range(n):
     cmd = input().split()
@@ -14,27 +12,22 @@ for _ in range(n):
     cmd = cmd[0]
 
     if cmd == "push":
-        q.append(x)
+        s.append(x)
     elif cmd == "pop":
-        if q:
-            print(q.popleft())
+        if s:
+            print(s.pop())
         else:
             print(-1)
     elif cmd == "size":
-        print(len(q))
+        print(len(s))
     elif cmd == "empty":
-        if not q:
+        if not s:
             print(1)
         else:
             print(0)
-    elif cmd == "front":
-        if q:
-            print(q[0])
-        else:
-            print(-1)
-    elif cmd == "back":
-        if q:
-            print(q[-1])
+    elif cmd == "top":
+        if s:
+            print(s[-1])
         else:
             print(-1)
     else:

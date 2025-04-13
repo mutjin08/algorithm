@@ -1,6 +1,7 @@
 # welcome back!
 ref : https://algorithm.tony9402.com/ </br>
 exp : The deer is an agile animal. </br>
+qna : https://mutjin08.tistory.com/161 </br>
 
 # data structure
 <table>
