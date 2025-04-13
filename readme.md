@@ -17,12 +17,12 @@ qna : https://mutjin08.tistory.com/161 </br>
             <td>https://www.acmicpc.net/problem/18258</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>10828_스택</td>
+            <td>https://www.acmicpc.net/problem/10828</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>9012_괄호</td>
+            <td>https://www.acmicpc.net/problem/9012</td>
         </tr>
         <tr>
             <td></td>
