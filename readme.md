@@ -26,8 +26,8 @@ ref : https://github.com/tony9402/baekjoon/tree/main/algorithms/data_structure <
             <td>https://www.acmicpc.net/problem/9012</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>1158_요세푸스 문제</td>
+            <td>https://www.acmicpc.net/problem/1158</td>
         </tr>
                 <tr>
             <td></td>
